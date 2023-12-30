@@ -1,0 +1,39 @@
+{
+    // These settings tweaks to the cmake plugin will ensure
+    // that you debug using cortex-debug instead of trying to launch
+    // a Pico binary on the host
+    "cmake.statusbar.advanced": {
+        "debug": {
+            "visibility": "hidden"
+        },
+        "launch": {
+            "visibility": "hidden"
+        },
+        "build": {
+            "visibility": "default"
+        },
+        "buildTarget": {
+            "visibility": "hidden"
+        }
+    },
+    "cmake.buildBeforeRun": true,
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cortex-debug.openocdPath": "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/tools/openocd/openocd.exe",
+    "cortex-debug.variableUseNaturalFormat": true,
+    "files.associations": {
+        "camera_interface.pio.h": "c",
+        "inc/ov2640.h": "c",
+        "inc/ov2640_reg.h": "c",
+        "inc/sccb.h": "c",
+        "inc/image_process.h": "c",
+        "clocks.h": "c",
+        "atomic": "c",
+        "cstdint": "c",
+        "i2c.h": "c",
+        "ov2640_reg.h": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "gpio.h": "c"
+    }
+}

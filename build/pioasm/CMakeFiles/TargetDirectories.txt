@@ -1,0 +1,3 @@
+C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/pioasm/CMakeFiles/pioasm.dir
+C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/pioasm/CMakeFiles/edit_cache.dir
+C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/pioasm/CMakeFiles/rebuild_cache.dir
