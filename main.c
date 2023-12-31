@@ -13,11 +13,15 @@ bool uart_status = 0;
 bool status = 0;
 uint64_t time = 0;
 uint64_t dt = 0;
+uint8_t frame_index = 0;
 
 OV2640_Config cam_config;
 
 Image_Convert image_buffer[88 * 72 * 4];
 uint8_t process_buffer[88 * 72];
+
+Linear_Constant B;
+Process_Status detect_status;
 
 int main() {
     
@@ -51,21 +55,30 @@ int main() {
 
     while (true) {
 
-        if (uart_status)
+        if (detect_status == Busy)
         {
-            RGB565_to_Grey_nonblocking(
+            RGB565_to_Binary_nonblocking(
                 process_buffer,
                 image_buffer,
                 88 * 72,
-                0,
-                2
+                frame_index,
+                2,
+                64
             );
-            uart_status = uart_write_nonblocking(
-                uart0, 
-                process_buffer, 
-                88 * 72,
-                0);
-            if (!uart_status) dt = time_us_64() - time;
+            detect_status = Line_Detection_nonblocking(
+                process_buffer,
+                &B,
+                72,
+                88
+            );
+            if (uart_status) {
+                uart_status = uart_write_nonblocking(
+                    uart0, 
+                    process_buffer, 
+                    88 * 72,
+                    0);
+                if (!uart_status) dt = time_us_64() - time;
+            }
         }
 
         if (status) {
@@ -79,10 +92,16 @@ int main() {
 
 void camera_interface_isr_handler(uint gpio, uint32_t events)
 {
+    static uint8_t count = 0;
     OV2640_Capture(&cam_config);
-    if (cam_config.callback_counter == 2 && !uart_status) {
-        time = time_us_64();
-        uart_status = true;
+    if (detect_status == Done || detect_status == Error) {
+        count = (count + 1) % 2;
+        if (count) {
+            time = time_us_64();
+            uart_status = true;
+        } 
+        frame_index = (cam_config.callback_counter - 1 + cam_config.max_buf) % cam_config.max_buf;
+        detect_status = Busy;
     }
     status = true;
 }

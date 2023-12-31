@@ -295,10 +295,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-g++.exe"
 		},
 		{
@@ -423,10 +423,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-gcc.exe"
 		},
 		{
@@ -1495,7 +1495,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",
