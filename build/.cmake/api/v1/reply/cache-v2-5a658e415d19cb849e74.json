@@ -1495,7 +1495,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",
