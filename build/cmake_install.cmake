@@ -38,9 +38,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/pico-sdk/cmake_install.cmake")
+  # Include the install script for the subdirectory.
+  include("C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/FREERTOS_KERNEL/cmake_install.cmake")
+endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/pico-sdk/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

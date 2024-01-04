@@ -41,6 +41,9 @@
 			"path" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/tools/CMakeLists.txt"
 		},
 		{
+			"path" : "FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake"
+		},
+		{
 			"isGenerated" : true,
 			"path" : "build/CMakeFiles/3.28.0-rc2/CMakeSystem.cmake"
 		},
@@ -218,6 +221,127 @@
 			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/ExternalProject/cfgcmd.txt.in"
 		},
 		{
+			"path" : "FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/CMakeLists.txt"
+		},
+		{
+			"path" : "FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/pico_sdk_import.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/pico_sdk_init.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.28.0-rc2/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/cmake/preload/toolchains/find_compiler.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/cmake/preload/toolchains/set_flags.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.28.0-rc2/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.28.0-rc2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/cmake/Platform/PICO.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/cmake/Platform/PICO.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/cmake/Platform/PICO.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
 			"isExternal" : true,
 			"path" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/CMakeLists.txt"
 		},
@@ -239,6 +363,9 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"path" : "FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/library.cmake"
 		},
 		{
 			"isExternal" : true,

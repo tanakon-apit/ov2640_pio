@@ -25,6 +25,8 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
   "CYW43_LWIP=0"
+  "FREE_RTOS_KERNEL_SMP=1"
+  "LIB_FREERTOS_KERNEL=1"
   "LIB_PICO_ASYNC_CONTEXT_THREADSAFE_BACKGROUND=1"
   "LIB_PICO_BIT_OPS=1"
   "LIB_PICO_BIT_OPS_PICO=1"
@@ -40,6 +42,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_MALLOC=1"
   "LIB_PICO_MEM_OPS=1"
   "LIB_PICO_MEM_OPS_PICO=1"
+  "LIB_PICO_MULTICORE=1"
   "LIB_PICO_PLATFORM=1"
   "LIB_PICO_PRINTF=1"
   "LIB_PICO_PRINTF_PICO=1"
@@ -58,6 +61,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_BOARD=\"pico_w\""
   "PICO_BUILD=1"
   "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+  "PICO_CONFIG_RTOS_ADAPTER_HEADER=C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h"
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=0"
   "PICO_CYW43_ARCH_THREADSAFE_BACKGROUND=1"
@@ -122,6 +126,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_async_context/include"
   "pico-sdk/src/rp2_common/pico_cyw43_driver"
   "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include"
+  "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/include"
+  "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/include"
   )
 
 # The set of dependency files which are needed:
@@ -171,6 +178,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d"
   "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d"
   "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d"
+  "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d"
   "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d"
   "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d"
   "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d"
@@ -179,6 +187,15 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
+  "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/croutine.c" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.obj.d"
+  "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/event_groups.c" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.obj.d"
+  "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/list.c" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.obj.d"
+  "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/portable/MemMang/heap_4.c" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj.d"
+  "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj.d"
+  "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/queue.c" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.obj.d"
+  "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/stream_buffer.c" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.obj.d"
+  "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/tasks.c" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.obj.d"
+  "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/timers.c" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.obj.d"
   "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/main.c" "CMakeFiles/ov2640_pio.dir/main.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/main.c.obj.d"
   "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/src/image_process.c" "CMakeFiles/ov2640_pio.dir/src/image_process.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/src/image_process.c.obj.d"
   "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/src/ov2640.c" "CMakeFiles/ov2640_pio.dir/src/ov2640.c.obj" "gcc" "CMakeFiles/ov2640_pio.dir/src/ov2640.c.obj.d"

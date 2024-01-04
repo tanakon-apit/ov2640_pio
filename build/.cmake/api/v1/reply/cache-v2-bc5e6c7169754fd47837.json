@@ -907,7 +907,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "81"
+			"value" : "82"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1342,6 +1342,54 @@
 			"value" : "[C:/Users/08809/AppData/Local/Programs/Python/Python310/python.exe][cfound components: Interpreter ][v3.10.2()]"
 		},
 		{
+			"name" : "FREERTOS_KERNEL_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to the FreeRTOS_KERNEL"
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel"
+		},
+		{
+			"name" : "FreeRTOS-Kernel_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/FREERTOS_KERNEL"
+		},
+		{
+			"name" : "FreeRTOS-Kernel_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "FreeRTOS-Kernel_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040"
+		},
+		{
 			"name" : "PICO_BOARD",
 			"properties" : 
 			[
@@ -1495,7 +1543,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",

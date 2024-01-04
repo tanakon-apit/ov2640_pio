@@ -3,6 +3,8 @@ C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/CMakeFiles/ov2640_pio_camera_
 C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/CMakeFiles/ELF2UF2Build.dir
 C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/CMakeFiles/edit_cache.dir
 C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/CMakeFiles/rebuild_cache.dir
+C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/FREERTOS_KERNEL/CMakeFiles/edit_cache.dir
+C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/FREERTOS_KERNEL/CMakeFiles/rebuild_cache.dir
 C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/pico-sdk/CMakeFiles/edit_cache.dir
 C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/pico-sdk/CMakeFiles/rebuild_cache.dir
 C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/pico-sdk/tools/CMakeFiles/edit_cache.dir

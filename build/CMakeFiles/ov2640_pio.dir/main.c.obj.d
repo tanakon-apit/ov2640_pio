@@ -32,6 +32,9 @@ CMakeFiles/ov2640_pio.dir/main.c.obj: \
  C:\Users\08809\Desktop\RP2040\src\ov2640_pio\build\generated\pico_base/pico/config_autogen.h \
  C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/boards/include/boards/pico_w.h \
  C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+ C:\Users\08809\Desktop\RP2040\src\ov2640_pio\inc/FreeRTOSConfig.h \
+ C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
  C:\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
  C:\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2040\hardware_regs\include/hardware/platform_defs.h \
  C:\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/addressmap.h \
@@ -86,4 +89,11 @@ CMakeFiles/ov2640_pio.dir/main.c.obj: \
  C:\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/i2c.h \
  C:\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/i2c.h \
  C:\Users\08809\Desktop\RP2040\src\ov2640_pio\inc/image_process.h \
- C:\Users\08809\Desktop\RP2040\src\ov2640_pio\inc/ov2640.h
+ C:\Users\08809\Desktop\RP2040\src\ov2640_pio\inc/ov2640.h \
+ C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\include/FreeRTOS.h \
+ C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\include/projdefs.h \
+ C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\include/portable.h \
+ C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\include/deprecated_definitions.h \
+ C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\portable\ThirdParty\GCC\RP2040\include/portmacro.h \
+ C:\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2_common\hardware_sync\include/hardware/sync.h \
+ C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\include/mpu_wrappers.h

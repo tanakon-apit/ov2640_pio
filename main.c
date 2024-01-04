@@ -5,6 +5,9 @@
 #include "ov2640.h"
 #include "image_process.h"
 
+#include "FreeRTOS.h"
+#include "FreeRTOSConfig.h"
+
 void camera_interface_isr_handler(uint gpio, uint32_t events);
 bool uart_write_nonblocking(uart_inst_t *uart, const uint8_t *src, size_t len, int8_t offset);
 

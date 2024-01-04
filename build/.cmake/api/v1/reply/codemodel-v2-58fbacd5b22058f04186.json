@@ -8,12 +8,13 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.12"
+						"string" : "3.19"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -25,12 +26,23 @@
 					]
 				},
 				{
+					"build" : "FREERTOS_KERNEL",
+					"jsonFile" : "directory-FREERTOS_KERNEL-Debug-e0bcf8f9be83a64e1acc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040"
+				},
+				{
 					"build" : "pico-sdk",
 					"childIndexes" : 
 					[
-						2,
 						3,
-						80
+						4,
+						81
 					],
 					"jsonFile" : "directory-pico-sdk-Debug-96904f987855bb4ebab7.json",
 					"minimumCMakeVersion" : 
@@ -38,7 +50,7 @@
 						"string" : "3.13"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 1,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk"
 				},
 				{
@@ -48,32 +60,31 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 1,
-					"projectIndex" : 1,
+					"parentIndex" : 2,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/tools"
 				},
 				{
 					"build" : "pico-sdk/src",
 					"childIndexes" : 
 					[
-						4,
-						16,
-						77
+						5,
+						17,
+						78
 					],
 					"jsonFile" : "directory-pico-sdk.src-Debug-302ce56c786480073ff9.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 1,
-					"projectIndex" : 1,
+					"parentIndex" : 2,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src"
 				},
 				{
 					"build" : "pico-sdk/src/common",
 					"childIndexes" : 
 					[
-						5,
 						6,
 						7,
 						8,
@@ -83,15 +94,16 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					],
 					"jsonFile" : "directory-pico-sdk.src.common-Debug-c2d9cd7fcb22b2c2cb68.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 3,
-					"projectIndex" : 1,
+					"parentIndex" : 4,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/common"
 				},
 				{
@@ -101,8 +113,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 4,
-					"projectIndex" : 1,
+					"parentIndex" : 5,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/common/boot_picoboot"
 				},
 				{
@@ -112,8 +124,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 4,
-					"projectIndex" : 1,
+					"parentIndex" : 5,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/common/boot_uf2"
 				},
 				{
@@ -123,8 +135,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 4,
-					"projectIndex" : 1,
+					"parentIndex" : 5,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/common/pico_base"
 				},
 				{
@@ -134,8 +146,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 4,
-					"projectIndex" : 1,
+					"parentIndex" : 5,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/common/pico_usb_reset_interface"
 				},
 				{
@@ -145,8 +157,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 4,
-					"projectIndex" : 1,
+					"parentIndex" : 5,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/common/pico_bit_ops"
 				},
 				{
@@ -156,8 +168,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 4,
-					"projectIndex" : 1,
+					"parentIndex" : 5,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/common/pico_binary_info"
 				},
 				{
@@ -167,8 +179,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 4,
-					"projectIndex" : 1,
+					"parentIndex" : 5,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/common/pico_divider"
 				},
 				{
@@ -178,8 +190,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 4,
-					"projectIndex" : 1,
+					"parentIndex" : 5,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/common/pico_sync"
 				},
 				{
@@ -189,8 +201,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 4,
-					"projectIndex" : 1,
+					"parentIndex" : 5,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/common/pico_time"
 				},
 				{
@@ -200,8 +212,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 4,
-					"projectIndex" : 1,
+					"parentIndex" : 5,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/common/pico_util"
 				},
 				{
@@ -211,15 +223,14 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 4,
-					"projectIndex" : 1,
+					"parentIndex" : 5,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/common/pico_stdlib"
 				},
 				{
 					"build" : "pico-sdk/src/rp2_common",
 					"childIndexes" : 
 					[
-						17,
 						18,
 						19,
 						20,
@@ -269,22 +280,23 @@
 						64,
 						65,
 						66,
-						68,
+						67,
 						69,
 						70,
 						71,
 						72,
 						73,
 						74,
-						76
+						75,
+						77
 					],
 					"jsonFile" : "directory-pico-sdk.src.rp2_common-Debug-3b9a634f3f778731b933.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 3,
-					"projectIndex" : 1,
+					"parentIndex" : 4,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common"
 				},
 				{
@@ -294,8 +306,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_base"
 				},
 				{
@@ -305,8 +317,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_claim"
 				},
 				{
@@ -316,8 +328,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_adc"
 				},
 				{
@@ -327,8 +339,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_clocks"
 				},
 				{
@@ -338,8 +350,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_dma"
 				},
 				{
@@ -349,8 +361,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_divider"
 				},
 				{
@@ -360,8 +372,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_exception"
 				},
 				{
@@ -371,8 +383,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_flash"
 				},
 				{
@@ -382,8 +394,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_gpio"
 				},
 				{
@@ -393,8 +405,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_i2c"
 				},
 				{
@@ -404,8 +416,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_interp"
 				},
 				{
@@ -415,8 +427,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_irq"
 				},
 				{
@@ -426,8 +438,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_pio"
 				},
 				{
@@ -437,8 +449,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_pll"
 				},
 				{
@@ -448,8 +460,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_pwm"
 				},
 				{
@@ -459,8 +471,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_resets"
 				},
 				{
@@ -470,8 +482,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_rtc"
 				},
 				{
@@ -481,8 +493,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_spi"
 				},
 				{
@@ -492,8 +504,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_sync"
 				},
 				{
@@ -503,8 +515,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_timer"
 				},
 				{
@@ -514,8 +526,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_uart"
 				},
 				{
@@ -525,8 +537,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_vreg"
 				},
 				{
@@ -536,8 +548,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_watchdog"
 				},
 				{
@@ -547,8 +559,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_xosc"
 				},
 				{
@@ -558,8 +570,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_bootrom"
 				},
 				{
@@ -569,8 +581,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_platform"
 				},
 				{
@@ -580,8 +592,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/boot_stage2",
 					"targetIndexes" : 
 					[
@@ -597,8 +609,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset"
 				},
 				{
@@ -608,8 +620,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore"
 				},
 				{
@@ -619,8 +631,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_unique_id"
 				},
 				{
@@ -630,8 +642,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_bit_ops"
 				},
 				{
@@ -641,8 +653,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_divider"
 				},
 				{
@@ -652,8 +664,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_double"
 				},
 				{
@@ -663,8 +675,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_int64_ops"
 				},
 				{
@@ -674,8 +686,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_flash"
 				},
 				{
@@ -685,8 +697,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_float"
 				},
 				{
@@ -696,8 +708,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_mem_ops"
 				},
 				{
@@ -707,8 +719,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_malloc"
 				},
 				{
@@ -718,8 +730,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_printf"
 				},
 				{
@@ -729,8 +741,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_rand"
 				},
 				{
@@ -740,8 +752,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_stdio"
 				},
 				{
@@ -751,8 +763,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_stdio_semihosting"
 				},
 				{
@@ -762,8 +774,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_stdio_uart"
 				},
 				{
@@ -773,8 +785,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/cmsis"
 				},
 				{
@@ -784,8 +796,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/tinyusb"
 				},
 				{
@@ -795,8 +807,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_stdio_usb"
 				},
 				{
@@ -806,8 +818,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_i2c_slave"
 				},
 				{
@@ -817,8 +829,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_async_context"
 				},
 				{
@@ -828,23 +840,23 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_btstack"
 				},
 				{
 					"build" : "pico-sdk/src/rp2_common/pico_cyw43_driver",
 					"childIndexes" : 
 					[
-						67
+						68
 					],
 					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_cyw43_driver-Debug-00597c3018b0df1e129d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver",
 					"targetIndexes" : 
 					[
@@ -859,8 +871,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 66,
-					"projectIndex" : 1,
+					"parentIndex" : 67,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus"
 				},
 				{
@@ -870,8 +882,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_lwip"
 				},
 				{
@@ -881,8 +893,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch"
 				},
 				{
@@ -892,8 +904,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_mbedtls"
 				},
 				{
@@ -903,8 +915,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_stdlib"
 				},
 				{
@@ -914,8 +926,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_cxx_options"
 				},
 				{
@@ -925,23 +937,23 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_standard_link"
 				},
 				{
 					"build" : "pico-sdk/src/rp2_common/pico_fix",
 					"childIndexes" : 
 					[
-						75
+						76
 					],
 					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_fix-Debug-5d3cd5e6e859137e8c07.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_fix"
 				},
 				{
@@ -951,8 +963,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 74,
-					"projectIndex" : 1,
+					"parentIndex" : 75,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration"
 				},
 				{
@@ -962,24 +974,24 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 16,
-					"projectIndex" : 1,
+					"parentIndex" : 17,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_runtime"
 				},
 				{
 					"build" : "pico-sdk/src/rp2040",
 					"childIndexes" : 
 					[
-						78,
-						79
+						79,
+						80
 					],
 					"jsonFile" : "directory-pico-sdk.src.rp2040-Debug-670f6277945bcbc095e4.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 3,
-					"projectIndex" : 1,
+					"parentIndex" : 4,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040"
 				},
 				{
@@ -989,8 +1001,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 77,
-					"projectIndex" : 1,
+					"parentIndex" : 78,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_regs"
 				},
 				{
@@ -1000,8 +1012,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 77,
-					"projectIndex" : 1,
+					"parentIndex" : 78,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2040/hardware_structs"
 				},
 				{
@@ -1011,8 +1023,8 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 1,
-					"projectIndex" : 1,
+					"parentIndex" : 2,
+					"projectIndex" : 2,
 					"source" : "C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/docs"
 				}
 			],
@@ -1022,7 +1034,8 @@
 				{
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"directoryIndexes" : 
 					[
@@ -1039,7 +1052,14 @@
 				{
 					"directoryIndexes" : 
 					[
-						1,
+						1
+					],
+					"name" : "FreeRTOS-Kernel",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
 						2,
 						3,
 						4,
@@ -1118,7 +1138,8 @@
 						77,
 						78,
 						79,
-						80
+						80,
+						81
 					],
 					"name" : "pico_sdk",
 					"parentIndex" : 0,
@@ -1137,56 +1158,56 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ELF2UF2Build-Debug-207633ff6a576fed6cc3.json",
+					"jsonFile" : "target-ELF2UF2Build-Debug-1417a3f3bd697f6e5e2a.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 66,
+					"directoryIndex" : 67,
 					"id" : "PioasmBuild::@c2fb4f534018e64680d5",
 					"jsonFile" : "target-PioasmBuild-Debug-a658673fd4244581bc73.json",
 					"name" : "PioasmBuild",
-					"projectIndex" : 1
+					"projectIndex" : 2
 				},
 				{
-					"directoryIndex" : 43,
+					"directoryIndex" : 44,
 					"id" : "bs2_default::@bc554eaed616d198a22d",
 					"jsonFile" : "target-bs2_default-Debug-35007b79d6be593b62a9.json",
 					"name" : "bs2_default",
-					"projectIndex" : 1
+					"projectIndex" : 2
 				},
 				{
-					"directoryIndex" : 43,
+					"directoryIndex" : 44,
 					"id" : "bs2_default_bin::@bc554eaed616d198a22d",
 					"jsonFile" : "target-bs2_default_bin-Debug-6bb622ff8f3f3eeade04.json",
 					"name" : "bs2_default_bin",
-					"projectIndex" : 1
+					"projectIndex" : 2
 				},
 				{
-					"directoryIndex" : 43,
+					"directoryIndex" : 44,
 					"id" : "bs2_default_padded_checksummed_asm::@bc554eaed616d198a22d",
 					"jsonFile" : "target-bs2_default_padded_checksummed_asm-Debug-f4db7eba97d91eb7aa16.json",
 					"name" : "bs2_default_padded_checksummed_asm",
-					"projectIndex" : 1
+					"projectIndex" : 2
 				},
 				{
-					"directoryIndex" : 66,
+					"directoryIndex" : 67,
 					"id" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h::@c2fb4f534018e64680d5",
 					"jsonFile" : "target-cyw43_driver_picow_cyw43_bus_pio_spi_pio_h-Debug-9ac697c411f51a93b992.json",
 					"name" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h",
-					"projectIndex" : 1
+					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ov2640_pio::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ov2640_pio-Debug-848423780e792f1f496a.json",
+					"jsonFile" : "target-ov2640_pio-Debug-e35aa9cea23d45771a7b.json",
 					"name" : "ov2640_pio",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ov2640_pio_camera_interface_pio_h::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ov2640_pio_camera_interface_pio_h-Debug-79ea450f1c60289204bf.json",
+					"jsonFile" : "target-ov2640_pio_camera_interface_pio_h-Debug-0555f96aef602e00ff7d.json",
 					"name" : "ov2640_pio_camera_interface_pio_h",
 					"projectIndex" : 0
 				}

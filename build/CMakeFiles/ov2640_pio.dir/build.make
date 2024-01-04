@@ -1023,6 +1023,146 @@ CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_com
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
 	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2_common\hardware_i2c\i2c.c -o CMakeFiles\ov2640_pio.dir\C_\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
 
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/ov2640_pio.dir/flags.make
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/portable/MemMang/heap_4.c
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/ov2640_pio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08809\Desktop\RP2040\src\ov2640_pio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -MF CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\portable\MemMang\heap_4.c.obj -c C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\portable\MemMang\heap_4.c
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\portable\MemMang\heap_4.c > CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\portable\MemMang\heap_4.c.i
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\portable\MemMang\heap_4.c -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\portable\MemMang\heap_4.c.s
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: CMakeFiles/ov2640_pio.dir/flags.make
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: CMakeFiles/ov2640_pio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08809\Desktop\RP2040\src\ov2640_pio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj -MF CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\portable\ThirdParty\GCC\RP2040\port.c.obj.d -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\portable\ThirdParty\GCC\RP2040\port.c.obj -c C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\portable\ThirdParty\GCC\RP2040\port.c
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\portable\ThirdParty\GCC\RP2040\port.c > CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\portable\ThirdParty\GCC\RP2040\port.c.i
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\portable\ThirdParty\GCC\RP2040\port.c -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\portable\ThirdParty\GCC\RP2040\port.c.s
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/ov2640_pio.dir/flags.make
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.obj: C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/croutine.c
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/ov2640_pio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08809\Desktop\RP2040\src\ov2640_pio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.obj -MF CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\croutine.c.obj.d -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\croutine.c.obj -c C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\croutine.c
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\croutine.c > CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\croutine.c.i
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\croutine.c -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\croutine.c.s
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/ov2640_pio.dir/flags.make
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.obj: C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/event_groups.c
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/ov2640_pio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08809\Desktop\RP2040\src\ov2640_pio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.obj -MF CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\event_groups.c.obj.d -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\event_groups.c.obj -c C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\event_groups.c
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\event_groups.c > CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\event_groups.c.i
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\event_groups.c -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\event_groups.c.s
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.obj: CMakeFiles/ov2640_pio.dir/flags.make
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.obj: C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/list.c
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.obj: CMakeFiles/ov2640_pio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08809\Desktop\RP2040\src\ov2640_pio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.obj -MF CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\list.c.obj.d -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\list.c.obj -c C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\list.c
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\list.c > CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\list.c.i
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\list.c -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\list.c.s
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/ov2640_pio.dir/flags.make
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.obj: C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/queue.c
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/ov2640_pio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08809\Desktop\RP2040\src\ov2640_pio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.obj -MF CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\queue.c.obj.d -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\queue.c.obj -c C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\queue.c
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\queue.c > CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\queue.c.i
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\queue.c -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\queue.c.s
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/ov2640_pio.dir/flags.make
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.obj: C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/stream_buffer.c
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/ov2640_pio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08809\Desktop\RP2040\src\ov2640_pio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.obj -MF CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\stream_buffer.c.obj.d -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\stream_buffer.c.obj -c C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\stream_buffer.c
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\stream_buffer.c > CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\stream_buffer.c.i
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\stream_buffer.c -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\stream_buffer.c.s
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/ov2640_pio.dir/flags.make
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.obj: C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/tasks.c
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/ov2640_pio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08809\Desktop\RP2040\src\ov2640_pio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.obj -MF CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\tasks.c.obj.d -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\tasks.c.obj -c C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\tasks.c
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\tasks.c > CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\tasks.c.i
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\tasks.c -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\tasks.c.s
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/ov2640_pio.dir/flags.make
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.obj: C:/Users/08809/Desktop/RP2040/src/ov2640_pio/FreeRTOS-Kernel/timers.c
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/ov2640_pio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08809\Desktop\RP2040\src\ov2640_pio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.obj -MF CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\timers.c.obj.d -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\timers.c.obj -c C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\timers.c
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\timers.c > CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\timers.c.i
+
+CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08809\Desktop\RP2040\src\ov2640_pio\FreeRTOS-Kernel\timers.c -o CMakeFiles\ov2640_pio.dir\FreeRTOS-Kernel\timers.c.s
+
+CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/ov2640_pio.dir/flags.make
+CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: C:/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/ov2640_pio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08809\Desktop\RP2040\src\ov2640_pio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles\ov2640_pio.dir\C_\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj.d -o CMakeFiles\ov2640_pio.dir\C_\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj -c C:\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2_common\pico_multicore\multicore.c
+
+CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2_common\pico_multicore\multicore.c > CMakeFiles\ov2640_pio.dir\C_\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2_common\pico_multicore\multicore.c.i
+
+CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
+	C:\PROGRA~2\ARMGNU~1\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2_common\pico_multicore\multicore.c -o CMakeFiles\ov2640_pio.dir\C_\Users\08809\Desktop\RP2040\sdk\pico-sdk\src\rp2_common\pico_multicore\multicore.c.s
+
 # Object files for target ov2640_pio
 ov2640_pio_OBJECTS = \
 "CMakeFiles/ov2640_pio.dir/main.c.obj" \
@@ -1093,7 +1233,17 @@ ov2640_pio_OBJECTS = \
 "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj" \
 "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj" \
 "CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj" \
-"CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+"CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
+"CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj" \
+"CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj" \
+"CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.obj" \
+"CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.obj" \
+"CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.obj" \
+"CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.obj" \
+"CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.obj" \
+"CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.obj" \
+"CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.obj" \
+"CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 
 # External object files for target ov2640_pio
 ov2640_pio_EXTERNAL_OBJECTS =
@@ -1167,11 +1317,21 @@ ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico
 ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.obj
+ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.obj
+ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.obj
+ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.obj
+ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.obj
+ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.obj
+ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.obj
+ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/build.make
 ov2640_pio.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/objects1.rsp
 ov2640_pio.elf: CMakeFiles/ov2640_pio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08809\Desktop\RP2040\src\ov2640_pio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable ov2640_pio.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08809\Desktop\RP2040\src\ov2640_pio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Linking CXX executable ov2640_pio.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ov2640_pio.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.3 rel1\bin\arm-none-eabi-objcopy.exe" -Oihex C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/ov2640_pio.elf ov2640_pio.hex
 	"C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.3 rel1\bin\arm-none-eabi-objcopy.exe" -Obinary C:/Users/08809/Desktop/RP2040/src/ov2640_pio/build/ov2640_pio.elf ov2640_pio.bin

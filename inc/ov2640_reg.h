@@ -12,7 +12,7 @@ static const uint8_t OV2640_UXGA_RGB565[][2] =
 	{0x3c, 0x32},  /* Reserved                              */
 	{0x11, 0x80},  /* Clock Rate Control                    */
 	{0x09, 0x02},  /* Common control 2                      */
-	{0x04, 0xA8},  /* Mirror                                */
+	{0x04, 0xE8},  /* Mirror                                */
 	{0x13, 0xe5},  /* Common control 8                      */
 	{0x14, 0x48},  /* Common control 9                      */
 	{0x2c, 0x0c},  /* Reserved                              */

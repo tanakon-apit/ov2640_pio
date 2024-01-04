@@ -1379,6 +1379,30 @@ C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_a
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
+C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
+
+# target to build an object file
+C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+
+C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.i: C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.i
+
+# target to preprocess a source file
+C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+
+C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.s: C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.s
+
+# target to generate assembly for a file
+C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+
 C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_platform/platform.obj: C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_platform/platform.obj
 
@@ -1602,6 +1626,222 @@ C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_
 C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+FreeRTOS-Kernel/croutine.obj: FreeRTOS-Kernel/croutine.c.obj
+.PHONY : FreeRTOS-Kernel/croutine.obj
+
+# target to build an object file
+FreeRTOS-Kernel/croutine.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.obj
+.PHONY : FreeRTOS-Kernel/croutine.c.obj
+
+FreeRTOS-Kernel/croutine.i: FreeRTOS-Kernel/croutine.c.i
+.PHONY : FreeRTOS-Kernel/croutine.i
+
+# target to preprocess a source file
+FreeRTOS-Kernel/croutine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.i
+.PHONY : FreeRTOS-Kernel/croutine.c.i
+
+FreeRTOS-Kernel/croutine.s: FreeRTOS-Kernel/croutine.c.s
+.PHONY : FreeRTOS-Kernel/croutine.s
+
+# target to generate assembly for a file
+FreeRTOS-Kernel/croutine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/croutine.c.s
+.PHONY : FreeRTOS-Kernel/croutine.c.s
+
+FreeRTOS-Kernel/event_groups.obj: FreeRTOS-Kernel/event_groups.c.obj
+.PHONY : FreeRTOS-Kernel/event_groups.obj
+
+# target to build an object file
+FreeRTOS-Kernel/event_groups.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.obj
+.PHONY : FreeRTOS-Kernel/event_groups.c.obj
+
+FreeRTOS-Kernel/event_groups.i: FreeRTOS-Kernel/event_groups.c.i
+.PHONY : FreeRTOS-Kernel/event_groups.i
+
+# target to preprocess a source file
+FreeRTOS-Kernel/event_groups.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.i
+.PHONY : FreeRTOS-Kernel/event_groups.c.i
+
+FreeRTOS-Kernel/event_groups.s: FreeRTOS-Kernel/event_groups.c.s
+.PHONY : FreeRTOS-Kernel/event_groups.s
+
+# target to generate assembly for a file
+FreeRTOS-Kernel/event_groups.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/event_groups.c.s
+.PHONY : FreeRTOS-Kernel/event_groups.c.s
+
+FreeRTOS-Kernel/list.obj: FreeRTOS-Kernel/list.c.obj
+.PHONY : FreeRTOS-Kernel/list.obj
+
+# target to build an object file
+FreeRTOS-Kernel/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.obj
+.PHONY : FreeRTOS-Kernel/list.c.obj
+
+FreeRTOS-Kernel/list.i: FreeRTOS-Kernel/list.c.i
+.PHONY : FreeRTOS-Kernel/list.i
+
+# target to preprocess a source file
+FreeRTOS-Kernel/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.i
+.PHONY : FreeRTOS-Kernel/list.c.i
+
+FreeRTOS-Kernel/list.s: FreeRTOS-Kernel/list.c.s
+.PHONY : FreeRTOS-Kernel/list.s
+
+# target to generate assembly for a file
+FreeRTOS-Kernel/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/list.c.s
+.PHONY : FreeRTOS-Kernel/list.c.s
+
+FreeRTOS-Kernel/portable/MemMang/heap_4.obj: FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+.PHONY : FreeRTOS-Kernel/portable/MemMang/heap_4.obj
+
+# target to build an object file
+FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+.PHONY : FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+
+FreeRTOS-Kernel/portable/MemMang/heap_4.i: FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+.PHONY : FreeRTOS-Kernel/portable/MemMang/heap_4.i
+
+# target to preprocess a source file
+FreeRTOS-Kernel/portable/MemMang/heap_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+.PHONY : FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+
+FreeRTOS-Kernel/portable/MemMang/heap_4.s: FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+.PHONY : FreeRTOS-Kernel/portable/MemMang/heap_4.s
+
+# target to generate assembly for a file
+FreeRTOS-Kernel/portable/MemMang/heap_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+.PHONY : FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+
+FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.obj: FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+.PHONY : FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.obj
+
+# target to build an object file
+FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+.PHONY : FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+
+FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i: FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
+.PHONY : FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i
+
+# target to preprocess a source file
+FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
+.PHONY : FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
+
+FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s: FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
+.PHONY : FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s
+
+# target to generate assembly for a file
+FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
+.PHONY : FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
+
+FreeRTOS-Kernel/queue.obj: FreeRTOS-Kernel/queue.c.obj
+.PHONY : FreeRTOS-Kernel/queue.obj
+
+# target to build an object file
+FreeRTOS-Kernel/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.obj
+.PHONY : FreeRTOS-Kernel/queue.c.obj
+
+FreeRTOS-Kernel/queue.i: FreeRTOS-Kernel/queue.c.i
+.PHONY : FreeRTOS-Kernel/queue.i
+
+# target to preprocess a source file
+FreeRTOS-Kernel/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.i
+.PHONY : FreeRTOS-Kernel/queue.c.i
+
+FreeRTOS-Kernel/queue.s: FreeRTOS-Kernel/queue.c.s
+.PHONY : FreeRTOS-Kernel/queue.s
+
+# target to generate assembly for a file
+FreeRTOS-Kernel/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/queue.c.s
+.PHONY : FreeRTOS-Kernel/queue.c.s
+
+FreeRTOS-Kernel/stream_buffer.obj: FreeRTOS-Kernel/stream_buffer.c.obj
+.PHONY : FreeRTOS-Kernel/stream_buffer.obj
+
+# target to build an object file
+FreeRTOS-Kernel/stream_buffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.obj
+.PHONY : FreeRTOS-Kernel/stream_buffer.c.obj
+
+FreeRTOS-Kernel/stream_buffer.i: FreeRTOS-Kernel/stream_buffer.c.i
+.PHONY : FreeRTOS-Kernel/stream_buffer.i
+
+# target to preprocess a source file
+FreeRTOS-Kernel/stream_buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.i
+.PHONY : FreeRTOS-Kernel/stream_buffer.c.i
+
+FreeRTOS-Kernel/stream_buffer.s: FreeRTOS-Kernel/stream_buffer.c.s
+.PHONY : FreeRTOS-Kernel/stream_buffer.s
+
+# target to generate assembly for a file
+FreeRTOS-Kernel/stream_buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/stream_buffer.c.s
+.PHONY : FreeRTOS-Kernel/stream_buffer.c.s
+
+FreeRTOS-Kernel/tasks.obj: FreeRTOS-Kernel/tasks.c.obj
+.PHONY : FreeRTOS-Kernel/tasks.obj
+
+# target to build an object file
+FreeRTOS-Kernel/tasks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.obj
+.PHONY : FreeRTOS-Kernel/tasks.c.obj
+
+FreeRTOS-Kernel/tasks.i: FreeRTOS-Kernel/tasks.c.i
+.PHONY : FreeRTOS-Kernel/tasks.i
+
+# target to preprocess a source file
+FreeRTOS-Kernel/tasks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.i
+.PHONY : FreeRTOS-Kernel/tasks.c.i
+
+FreeRTOS-Kernel/tasks.s: FreeRTOS-Kernel/tasks.c.s
+.PHONY : FreeRTOS-Kernel/tasks.s
+
+# target to generate assembly for a file
+FreeRTOS-Kernel/tasks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/tasks.c.s
+.PHONY : FreeRTOS-Kernel/tasks.c.s
+
+FreeRTOS-Kernel/timers.obj: FreeRTOS-Kernel/timers.c.obj
+.PHONY : FreeRTOS-Kernel/timers.obj
+
+# target to build an object file
+FreeRTOS-Kernel/timers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.obj
+.PHONY : FreeRTOS-Kernel/timers.c.obj
+
+FreeRTOS-Kernel/timers.i: FreeRTOS-Kernel/timers.c.i
+.PHONY : FreeRTOS-Kernel/timers.i
+
+# target to preprocess a source file
+FreeRTOS-Kernel/timers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.i
+.PHONY : FreeRTOS-Kernel/timers.c.i
+
+FreeRTOS-Kernel/timers.s: FreeRTOS-Kernel/timers.c.s
+.PHONY : FreeRTOS-Kernel/timers.s
+
+# target to generate assembly for a file
+FreeRTOS-Kernel/timers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ov2640_pio.dir\build.make CMakeFiles/ov2640_pio.dir/FreeRTOS-Kernel/timers.c.s
+.PHONY : FreeRTOS-Kernel/timers.c.s
 
 main.obj: main.c.obj
 .PHONY : main.obj
@@ -1860,6 +2100,9 @@ help:
 	@echo ... C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
 	@echo ... C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
 	@echo ... C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
+	@echo ... C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
+	@echo ... C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.i
+	@echo ... C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.s
 	@echo ... C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_platform/platform.obj
 	@echo ... C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_platform/platform.i
 	@echo ... C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_platform/platform.s
@@ -1888,6 +2131,33 @@ help:
 	@echo ... C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 	@echo ... C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 	@echo ... C_/Users/08809/Desktop/RP2040/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+	@echo ... FreeRTOS-Kernel/croutine.obj
+	@echo ... FreeRTOS-Kernel/croutine.i
+	@echo ... FreeRTOS-Kernel/croutine.s
+	@echo ... FreeRTOS-Kernel/event_groups.obj
+	@echo ... FreeRTOS-Kernel/event_groups.i
+	@echo ... FreeRTOS-Kernel/event_groups.s
+	@echo ... FreeRTOS-Kernel/list.obj
+	@echo ... FreeRTOS-Kernel/list.i
+	@echo ... FreeRTOS-Kernel/list.s
+	@echo ... FreeRTOS-Kernel/portable/MemMang/heap_4.obj
+	@echo ... FreeRTOS-Kernel/portable/MemMang/heap_4.i
+	@echo ... FreeRTOS-Kernel/portable/MemMang/heap_4.s
+	@echo ... FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.obj
+	@echo ... FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i
+	@echo ... FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s
+	@echo ... FreeRTOS-Kernel/queue.obj
+	@echo ... FreeRTOS-Kernel/queue.i
+	@echo ... FreeRTOS-Kernel/queue.s
+	@echo ... FreeRTOS-Kernel/stream_buffer.obj
+	@echo ... FreeRTOS-Kernel/stream_buffer.i
+	@echo ... FreeRTOS-Kernel/stream_buffer.s
+	@echo ... FreeRTOS-Kernel/tasks.obj
+	@echo ... FreeRTOS-Kernel/tasks.i
+	@echo ... FreeRTOS-Kernel/tasks.s
+	@echo ... FreeRTOS-Kernel/timers.obj
+	@echo ... FreeRTOS-Kernel/timers.i
+	@echo ... FreeRTOS-Kernel/timers.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
